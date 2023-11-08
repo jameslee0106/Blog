@@ -94,12 +94,14 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/boostrap/dist/css/bootstrap.css",
-              "node_modules/boostrap/dist/css/bootstrap-grid.css",
-              "node_modules/boostrap/dist/css/bootstrap-reboot.css",
-              "node_modules/boostrap/dist/css/bootstrap-utilities.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap/dist/css/bootstrap-grid.css",
+              "node_modules/bootstrap/dist/css/bootstrap-reboot.css",
+              "node_modules/bootstrap/dist/css/bootstrap-utilities.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/boostrap/dist/js/bootstrap.bundle.min.js"
+            ]
           }
         }
       }
